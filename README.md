@@ -10,6 +10,7 @@ A list of files can be specified at once.  The code will attempt to parallelize 
   ```
     with concurrent.futures.ThreadPoolExecutor() as executor:
       executor.map(lambda f: upload_to_s3(f, bucket_name, s3_prefix), file_paths)
+  ```
 
 
 ## How
