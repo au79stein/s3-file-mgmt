@@ -10,7 +10,6 @@ from datetime import datetime
 from botocore.exceptions import NoCredentialsError
 
 # AWS S3 Configuration
-#BUCKET_NAME = "cloudnost"
 S3_REGION = "us-east-1"  # Change as needed
 
 # SQLite Configuration
